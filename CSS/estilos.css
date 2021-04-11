@@ -1,0 +1,140 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-fondo{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../IMG/fondo4.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.element{
+    margin: .4em;
+}
+.container-login{
+    background-color: #fff;
+    padding: 6vh 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 4px;
+}
+.login__logo{
+    object-fit: none;
+}
+.login__titulo{
+    font-weight: bold;
+}
+.login-input__user{
+    text-align: center;
+   border: none;
+   border-bottom: 1px solid rgb(105, 172, 235);
+   outline: none;
+    width: 13vw;
+    height: 3vh;
+}
+.login-input__pass{
+    text-align: center;
+    border: none;
+    height: 3vh;
+    outline: none;
+    border-bottom: 1px solid rgb(105, 172, 235);
+    width: 13vw;
+}
+.login__buttom{
+display: flex;
+height: 3vh; 
+width: 13vw;
+background: rgb(44, 106, 199);
+align-items: center;
+justify-content: center;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+.container-flex{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+/*CONTAINER BAR*/
+.container-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(7, 156, 243);
+    height: 8%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.container-bar__titulo{
+width: 13.55%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background:rgb(16, 139, 211);
+cursor: default;
+}
+.container-bar a{
+    padding: 0% 1.5%;
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(211, 29, 29);
+}
+
+/*FIN-CONTAINER BAR*/
+.container-menu_main{
+    display: flex;
+    height: 100%;
+    background: rgb(241, 241, 241);
+}
+/*---MENU---*/
+.container-menu{
+    height: 100%;
+    width: 16%;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+}
+.container-menu__li{
+    padding: 1.5vh 1.2vh;
+    list-style: none;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.container-menu__a{
+    text-decoration: none;  
+    color: rgb(95, 95, 95);
+}
+.container-menu__a li{
+display: flex;
+font-size: 1.7vh;
+transition: 0.1s;
+align-items: center;
+}
+.container-menu__a li img{
+    width: 2vh;
+}
+.container-menu__a li:hover{
+    background: rgb(241, 241, 241);
+    color: rgb(95, 95, 95);
+}
+
+/*------ MAIN-------*/
+.container-main{
+    background: #fff;
+    width: 100%;
+    margin: 2vh;
+    border-radius: 2px;
+}
